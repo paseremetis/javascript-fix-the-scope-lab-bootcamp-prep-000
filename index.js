@@ -8,17 +8,6 @@ function yourAnimal() {
   return animal
 }
 
-1.	function outerFunction() {
-2.	  var innerVariable = "I'm sort of a secret.";
-3.	 
-4.	  return function innerScope() {
-5.	    var inaccessible = "Nothing can touch me.";
-6.	 
-7.	    return innerVariable;
-8.	  }
-9.	}
-
-
  // How can we make sure that this function
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
