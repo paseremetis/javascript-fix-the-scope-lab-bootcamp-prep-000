@@ -13,12 +13,16 @@ function add2(n) {
 }
 
 var funkyFunction = function(){
+  function funkyFunction(){
+    var theFunk = "FUNKY!"
+  }
   return function(){
     return "theFunk"
     return "FUNKY!"
   }
 }
 
+1.	var myScope = outerFunction();
 1.	function outerFunction() {
 2.	  var innerVariable = "I'm sort of a secret.";
 3.	 
