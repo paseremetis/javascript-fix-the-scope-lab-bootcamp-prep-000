@@ -1,11 +1,11 @@
- var animal = 'dog'
 function myAnimal() {
-  return animal
+  var animal = 'dog'
+  return animal2
 }
 
 function yourAnimal() {
-  var animal = 'cat'
-  return animal
+  var animal2 = 'cat'
+  return animal2
 }
 
 1.	function outerFunction() {
