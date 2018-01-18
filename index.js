@@ -1,22 +1,11 @@
 function myAnimal() {
-  var animal = 'dog'
-  return animal2
+  var animal = 'dog';
+  return function yourAnimal() { 
+    var animal2 = 'cat';
+    return animal
+  }
 }
 
-function yourAnimal() {
-  var animal2 = 'cat'
-  return animal2
-}
-
-1.	function outerFunction() {
-2.	  var innerVariable = "I'm sort of a secret.";
-3.	 
-4.	  return function innerScope() {
-5.	    var inaccessible = "Nothing can touch me.";
-6.	 
-7.	    return innerVariable;
-8.	  }
-9.	}
 
 
  // How can we make sure that this function
