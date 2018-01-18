@@ -21,14 +21,3 @@ var funkyFunction = function(){
     return "FUNKY!"
   }
 }
-
-1.	var myScope = outerFunction();
-1.	function outerFunction() {
-2.	  var innerVariable = "I'm sort of a secret.";
-3.	 
-4.	  return function innerScope() {
-5.	    var inaccessible = "Nothing can touch me.";
-6.	 
-7.	    return innerVariable;
-8.	  }
-9.	}
